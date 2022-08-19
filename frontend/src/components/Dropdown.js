@@ -7,6 +7,7 @@ import SEPractices from "../dummydata/SEPractices"
     return (
         <div>
              <select>
+             <option value="">Select an SE Practice </option>
                 {optionItems}
              </select>
          </div>
