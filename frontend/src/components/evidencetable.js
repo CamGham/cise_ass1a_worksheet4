@@ -1,6 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React, {useMemo} from "react";
 import articles from "../dummydata/articles.js";
 import { useTable, useSortBy, usePagination } from 'react-table';
+
 const Table = ({columns, data}) => {
 const {
     getTableProps,
